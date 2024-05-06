@@ -26,6 +26,8 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+# Set the webpage name
+st.set_page_config(page_title="Investment")
 
 # Simple Interest Calculator
 def simple_interest(principal, rate, time):
